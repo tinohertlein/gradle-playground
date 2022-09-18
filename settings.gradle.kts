@@ -7,7 +7,7 @@ pluginManagement {
 //        credentials.password = "..."
 //    }
 //
-//    includeBuild("gradle/plugins")
+    includeBuild("gradle/plugins")
 }
 
 
@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     // credentials.password = "..."
     // }
 //
-    // includeBuild("../my-other-project")
+//     includeBuild("../my-other-project")
 }
 
 rootProject.name = "my-project"
