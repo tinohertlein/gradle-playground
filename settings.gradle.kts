@@ -12,8 +12,8 @@ pluginManagement {
 
 
 dependencyResolutionManagement {
-    // repositories.mavenCentral()
-    // repositories.google()
+     repositories.mavenCentral()
+     repositories.google()
     // repositories.maven(("https://...")) {
     // credentials.username = "..."
     // credentials.password = "..."
@@ -22,7 +22,7 @@ dependencyResolutionManagement {
 //     includeBuild("../my-other-project")
 }
 
-rootProject.name = "a-gradle-sample-project"
+rootProject.name = "a-sample-gradle-project"
 
 include("app")
 include("business-logic")
