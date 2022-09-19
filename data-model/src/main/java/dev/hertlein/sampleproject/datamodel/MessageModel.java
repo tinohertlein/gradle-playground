@@ -1,4 +1,4 @@
-package hertlein.dev.sampleproject.datamodel;
+package dev.hertlein.sampleproject.datamodel;
 
 public class MessageModel {
     private final String message;

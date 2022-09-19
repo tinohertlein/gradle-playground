@@ -3,7 +3,7 @@ plugins {
 }
 
 application {
-    mainClass.set("hertlein.dev.sampleproject.app.Application")
+    mainClass.set("dev.hertlein.sampleproject.app.Application")
 }
 
 dependencies {

@@ -1,6 +1,6 @@
-package hertlein.dev.sampleproject.businesslogic;
+package dev.hertlein.sampleproject.businesslogic;
 
-import hertlein.dev.sampleproject.datamodel.MessageModel;
+import dev.hertlein.sampleproject.datamodel.MessageModel;
 import org.apache.commons.lang3.StringUtils;
 
 public class PrintService {

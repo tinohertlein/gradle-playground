@@ -1,4 +1,4 @@
-package hertlein.dev.sampleproject.gradle;
+package dev.hertlein.sampleproject.gradle;
 
 import java.io.File;
 import java.io.IOException;
