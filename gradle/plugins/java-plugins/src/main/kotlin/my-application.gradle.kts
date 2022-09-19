@@ -1,11 +1,15 @@
 import dev.hertlein.sampleproject.gradle.JarCount
-import gradle.kotlin.dsl.accessors._7f98a97a4d2946203731d69c78178e41.build
-import gradle.kotlin.dsl.accessors._7f98a97a4d2946203731d69c78178e41.jar
-import gradle.kotlin.dsl.accessors._7f98a97a4d2946203731d69c78178e41.runtimeClasspath
 
 plugins {
     id("my-java-base")
     id("application")
+    id("test-report-aggregation")
+    id("jacoco-report-aggregation")
+}
+
+tasks.check {
+    dependsOn(tasks.named("testAggregateTestReport"))
+    dependsOn(tasks.named("testCodeCoverageReport"))
 }
 
 tasks.register<JarCount>("countJars") {
