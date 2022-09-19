@@ -12,14 +12,17 @@ pluginManagement {
 
 
 dependencyResolutionManagement {
-     repositories.mavenCentral()
-     repositories.google()
+    repositories.mavenCentral()
+    repositories.google()
     // repositories.maven(("https://...")) {
     // credentials.username = "..."
     // credentials.password = "..."
     // }
 //
-     includeBuild("gradle/platform")
+
+    // use versions catalog instead
+//     includeBuild("gradle/platform")
+
 }
 
 rootProject.name = "a-sample-gradle-project"

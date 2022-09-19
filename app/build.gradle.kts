@@ -7,8 +7,6 @@ application {
 }
 
 dependencies {
-    implementation(platform("dev.hertlein.sampleproject:platform"))
-
     implementation(project(":data-model"))
     implementation(project(":business-logic"))
 }

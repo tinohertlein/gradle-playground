@@ -3,8 +3,6 @@ plugins {
 }
 
 dependencies {
-    implementation(platform("dev.hertlein.sampleproject:platform"))
-
-    implementation("org.apache.commons:commons-lang3")
+    implementation(libs.commons.lang)
 }
 

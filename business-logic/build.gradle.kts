@@ -3,9 +3,8 @@ plugins {
 }
 
 dependencies {
-    implementation(platform("dev.hertlein.sampleproject:platform"))
-
     implementation(project(":data-model"))
-    implementation("org.apache.commons:commons-lang3")
-
+    implementation(libs.commons.lang)
+    implementation(libs.slf4j.api)
+    implementation(libs.slf4j.simple)
 }
