@@ -7,4 +7,8 @@ dependencies {
     implementation(libs.commons.lang)
     implementation(libs.slf4j.api)
     implementation(libs.slf4j.simple)
+
+    testImplementation(libs.assertj.core)
+    testImplementation(libs.junit.api)
+    testRuntimeOnly(libs.junit.engine)
 }
