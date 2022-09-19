@@ -6,7 +6,7 @@ dependencies {
     implementation(project(":data-model"))
     implementation(libs.commons.lang)
     implementation(libs.slf4j.api)
-    implementation(libs.slf4j.simple)
+    runtimeOnly(libs.slf4j.simple)
 
     testImplementation(libs.assertj.core)
     testImplementation(libs.junit.api)

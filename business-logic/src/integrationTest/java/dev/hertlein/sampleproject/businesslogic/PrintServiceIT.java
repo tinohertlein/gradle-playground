@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import dev.hertlein.sampleproject.datamodel.MessageModel;
 import org.junit.jupiter.api.Test;
 
-class PrintServiceTest {
+class PrintServiceIT {
 
     private PrintService printService = new PrintService();
 
