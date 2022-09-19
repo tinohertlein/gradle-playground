@@ -3,3 +3,4 @@
 /gradle/plugins/.gradle/
 /gradle/plugins/java-plugins/build/
 /**/build/
+/gradle/platform/.gradle/

@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     // credentials.password = "..."
     // }
 //
-//     includeBuild("../my-other-project")
+     includeBuild("gradle/platform")
 }
 
 rootProject.name = "a-sample-gradle-project"

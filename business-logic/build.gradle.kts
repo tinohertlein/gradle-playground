@@ -3,7 +3,9 @@ plugins {
 }
 
 dependencies {
+    implementation(platform("dev.hertlein.sampleproject:platform"))
+
     implementation(project(":data-model"))
-    implementation("org.apache.commons:commons-lang3:3.12.0")
+    implementation("org.apache.commons:commons-lang3")
 
 }
