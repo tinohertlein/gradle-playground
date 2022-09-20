@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+skinparam monochrome true
+skinparam handwritten true
+
+node "a-sample-project" {
+    [app] --> [business-logic]: depends on
+    [app] --> [data-model]: depends on
+    [business-logic] --> [data-model]: depends on
+}
+@enduml
+
+@enduml
