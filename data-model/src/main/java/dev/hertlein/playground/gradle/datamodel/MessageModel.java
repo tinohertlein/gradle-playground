@@ -1,4 +1,4 @@
-package dev.hertlein.sampleproject.datamodel;
+package dev.hertlein.playground.gradle.datamodel;
 
 public class MessageModel {
     private final String message;

@@ -1,14 +1,14 @@
-package dev.hertlein.sampleproject.businesslogic;
+package dev.hertlein.playground.gradle.businesslogic;
 
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import dev.hertlein.sampleproject.datamodel.MessageModel;
+import dev.hertlein.playground.gradle.datamodel.MessageModel;
 import org.junit.jupiter.api.Test;
 
-class PrintServiceTest {
+class AnotherPrintServiceIT {
 
-    private PrintService printService = new PrintService();
+    private final AnotherPrintService printService = new AnotherPrintService();
 
     @Test
     void should_return_status_done() {

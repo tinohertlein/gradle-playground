@@ -1,4 +1,4 @@
-import dev.hertlein.sampleproject.gradle.JarCount
+import dev.hertlein.playground.gradle.JarCount
 
 plugins {
     id("my-java-base")

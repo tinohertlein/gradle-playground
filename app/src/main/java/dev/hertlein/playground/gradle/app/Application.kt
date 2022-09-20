@@ -1,4 +1,4 @@
-package dev.hertlein.sampleproject.app
+package dev.hertlein.playground.gradle.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

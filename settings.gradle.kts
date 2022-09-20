@@ -25,7 +25,7 @@ dependencyResolutionManagement {
 
 }
 
-rootProject.name = "a-sample-gradle-project"
+rootProject.name = "a-sample-project"
 
 include("app")
 include("business-logic")

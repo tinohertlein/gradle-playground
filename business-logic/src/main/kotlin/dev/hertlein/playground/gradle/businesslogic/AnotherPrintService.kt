@@ -1,6 +1,6 @@
-package dev.hertlein.sampleproject.businesslogic
+package dev.hertlein.playground.gradle.businesslogic
 
-import dev.hertlein.sampleproject.datamodel.MessageModel
+import dev.hertlein.playground.gradle.datamodel.MessageModel
 import org.apache.commons.lang3.StringUtils
 import org.slf4j.LoggerFactory
 

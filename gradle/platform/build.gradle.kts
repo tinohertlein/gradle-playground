@@ -2,7 +2,7 @@ plugins {
     id("java-platform")
 }
 
-group = "dev.hertlein.sampleproject"
+group = "dev.hertlein.playground.gradle"
 
 javaPlatform.allowDependencies()
 dependencies {
