@@ -6,9 +6,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 import dev.hertlein.sampleproject.datamodel.MessageModel;
 import org.junit.jupiter.api.Test;
 
-class PrintServiceIT {
+class AnotherPrintServiceIT {
 
-    private PrintService printService = new PrintService();
+    private AnotherPrintService printService = new AnotherPrintService();
 
     @Test
     void should_return_status_done() {

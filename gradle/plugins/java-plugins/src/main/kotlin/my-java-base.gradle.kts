@@ -1,9 +1,12 @@
 import org.gradle.api.tasks.testing.logging.TestLogEvent
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 
 plugins {
     id("java")
     id("jacoco")
     id("com.diffplug.spotless")
+    kotlin("jvm")
 }
 
 java {
@@ -12,6 +15,13 @@ java {
 
 tasks.withType<JavaCompile>().configureEach {
     options.encoding = "UTF-8"
+}
+
+tasks.withType<KotlinCompile> {
+    kotlinOptions {
+        freeCompilerArgs = listOf("-Xjsr305=strict")
+        jvmTarget = "11"
+    }
 }
 
 tasks.withType<Test>().configureEach {
