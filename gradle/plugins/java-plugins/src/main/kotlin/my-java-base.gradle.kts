@@ -7,6 +7,9 @@ plugins {
     id("jacoco")
     id("com.diffplug.spotless")
     kotlin("jvm")
+    id("org.springframework.boot")
+    id("io.spring.dependency-management")
+    kotlin("plugin.spring")
 }
 
 java {
