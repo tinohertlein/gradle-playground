@@ -11,9 +11,14 @@ to 'real' projects.
 
 ## System architecture
 
-The sample project is a quite simple Gradle project named very creatively 'a-sample-project', consisting of 3 Gradle
+The sample project is a quite simple Gradle multi-project named very creatively 'a-sample-project', consisting of 3
+Gradle
 subprojects:
-app, business-logic and data-model. The
-dependency-relationship among them is the following:
+
+* app
+* business-logic
+* data-model
+
+The dependency-relationship among them is the following:
 
 ![Module dependencies](docs/components.png)
